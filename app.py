@@ -164,10 +164,5 @@ def health_check():
 
 if __name__ == "__main__":
     # Run with enhanced debugging
-    app.run(
-        host='0.0.0.0',
-        port=5001,
-        debug=DEBUG,
-        use_reloader=True,
-        use_debugger=True
-    )
+    app.run()
+# , debug=DEBUG, use_reloader=DEBUG, port=5000)
